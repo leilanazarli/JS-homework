@@ -106,32 +106,8 @@ console.log(arrFlat);
 
 // 6.Sort array "colors" with color's length, if color's length is equal to each other sort them alphabetically.
 const colors = ['green', 'blue', 'yellow', 'black', 'red', 'brown', 'white', 'gray', 'violet', 'pink']
-console.log();
+console.log(colors.sort((a,b)=>a.length-b.length));
 
-// const lengthOfColors = [];
-// for(let i=0;i<colors.length;i++){
-//     lengthOfColors[i] = colors[i].length;
-// }
-// let sum=1;
-// for(let i=0;i<colors.length;i++){
-//     if(lengthOfColors[0] === lengthOfColors[i]){
-//         sum++;
-//     }
-// }
-
-// if(sum!==lengthOfColors.length){
-
-// }
-
-// console.log(lengthOfColors);
-// let sortedColors= colors.sort((a,b)=>{
-//    if(a.length !== b.length ){
-    
-//    } else{
-//     return colors.sort();
-//    }
-// })
-// console.log(sortedColors);
  
 // console.log: ['red', 'blue', 'gray', 'pink', 'black', 'brown', 'green', 'white', 'violet', 'yellow']
 
