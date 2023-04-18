@@ -26,34 +26,17 @@ console.log(newArrr);
 console.log(text.toLocaleLowerCase().indexOf("r" ,5 ))
 
 // 6.Find out vowels in 'text' and add them to 'newArr' which contains unique values. //['e','a','o']
-let newarr = ["a", "a", "b"];
+let vowels = ['a', 'i', 'o', 'u', 'e'] 
+const newarr=[]
+for (let i=0;i<=text.length; i++){
+    if(vowels.includes(text[i])){
+       newarr.push(text[i])
+    }
+}
+console.log(newarr);
 console.log(uniqueSet = new Set(newarr));
-// function getCount (str){
-//  let vowelsCount=0
-//  let vowels = ['a', 'i', 'o', 'u', 'e'] 
-//  for( let text of str ){
-//     if (vowels.includes(text)){
-//         vowelsCount++
-//     }
-//  }
-//  return vowelsCount
-// }console.log(vowelsCount);
-// let vowels = ['a', 'i', 'o', 'u', 'e']
-// let string = 'We are MERN-Stack developers'
 
-// function getCount (str){
-//  let vowelsCount=0
-//  for (let i=0 ; i<=string.length-1 ; i++){
-//     if(string.charAt(i) == "a" || string.charAt(i) == "e" || string.charAt(i) == "i" || string.charAt(i) == "o" || string.charAt(i) == "u") {
-//         vowelsCount += 1;
-//       }
-//     }
-//     return vowelsCount;
-//   }console.log(vowelsCount);
-// const countVowels = str => Array.from(str)
-// .filter(letter => 'aeiou'.includes(letter)).length;
 
-// console.log(countVowels('We are MERN-Stack developers'))
 // 3.Write a function(arrow function) called 'calcArea()' which to calculate sum region's area,
 //  if region's length is equal to 6 in 'arr2'.
 
@@ -83,12 +66,10 @@ const arr3 = [
     },
 
 ]
-const calcArea=0
-const arr3Map=arr3.map((element ,index )=> element.region.length===6 ?calcArea+=index.area :null)
-console.log(calcArea);
-// console.log(arr3Map);
-// console.log: (60)
+let sumOfarea=0;
+arr3.forEach((element)=>element.region.length===6 ? sumOfarea+=element.area :null)
 
+console.log(sumOfarea);
 
 // 4.Sort 'arr3' ascending order.
 const arr4 = [8, 44, 14, 2, 23, 1, 22, 34, 9, 0, 6]
@@ -106,9 +87,16 @@ console.log(arrFlat);
 
 // 6.Sort array "colors" with color's length, if color's length is equal to each other sort them alphabetically.
 const colors = ['green', 'blue', 'yellow', 'black', 'red', 'brown', 'white', 'gray', 'violet', 'pink']
-console.log(colors.sort((a,b)=>a.length-b.length));
+// console.log(colors.sort((a,b)=>a.length-b.length || a.localeCompare(b)));
+colors.sort((a,b)=> {
+    if(a.length===b.length){
+        return a.localeCompare(b)
+    } 
+    return a.length-b.length
 
- 
+})
+console.log(colors);
+
 // console.log: ['red', 'blue', 'gray', 'pink', 'black', 'brown', 'green', 'white', 'violet', 'yellow']
 
 
