@@ -1,2 +1,2 @@
-# JV-homework
+# JS-homework
 Javascript  
