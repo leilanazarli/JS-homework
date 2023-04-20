@@ -1,57 +1,27 @@
-//1.Return the First Element in an Array.
-let arr1 = [1, 2, 3]
-let arr2 = [80, 5, 100]
-let arr3 = [-500, 0, 50]
-let result = []
-function getFirstValue(anyArray) {
-  
-        result.push(anyArray[0]) 
-   
-   return result
+//1
+function getFirstValue(arr) {
+    return arr.at(0)
 }
- console.log(getFirstValue(arr1));
- result.length=0
- console.log(getFirstValue(arr2));
- result.length=0
- console.log(getFirstValue(arr3));
-
-
-// getFirstValue([1, 2, 3])  // 1
-// getFirstValue([80, 5, 100]) // 80
-// getFirstValue([-500, 0, 50]) // -500
-
-//2.Return the Last Element in an Array.
-
-function getLastItem(anyArray) {
-    result.push(anyArray[2])
-    return result
+console.log(getFirstValue([1, 2, 3]))  // 1
+console.log(getFirstValue([80, 5, 100])) // 80
+console.log(getFirstValue([-500, 0, 50])) // -500
+//2
+function getLastItem(arr) {
+    return arr.at(-1)
 }
-result.length=0
-console.log(getLastItem([1, 2, 3]));  // 3
-result.length=0
-console.log(getLastItem(["cat", "dog", "duck"])); // duck
-result.length=0
-console.log(getLastItem([true, false, true])); //true
+console.log(getLastItem([1, 2, 3]))  // 3
+console.log(getLastItem(["cat", "dog", "duck"]))  // duck
+console.log(getLastItem([true, false, true])) //true
+//3
+function findIndex(arr , n) {
+    return arr.findIndex((el)=>el==n)
+}
 
-// 3.Find the Index
-// let arr4 = ["hi", "edabit", "fgh", "abc"]
-// let arr5 = ["Red", "blue", "Blue", "Green"]
-// let arr6 = ["a", "g", "y", "d"]
-// let arr7 = ["Pineapple", "Orange", "Grape", "Apple"]
-// let findIndex  = function(a){
-//     for (let i = 0; i < arr4.length; i++) {
-//      if(arr4.findIndex[i]){
-//         console.log(a);
-//      }
-//     } 
-//     return
-// }
+console.log(findIndex(["hi", "edabit", "fgh", "abc"], "fgh")) // 2
+console.log(findIndex(["Red", "blue", "Blue", "Green"], "blue")) // 1
+console.log(findIndex(["a", "g", "y", "d"], "d") ) // 3
+console.log(findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") )// 0
 
-
-// console.log(findIndex("fgh")); //2
-// console.log(findIndex("blue")); // 1
-// console.log(findIndex("d"));  // 3
-// console.log(findIndex("Pineapple")); // 0
 
 //4.Return the Sum of Two Numbers.
 function addition(c,d) {
