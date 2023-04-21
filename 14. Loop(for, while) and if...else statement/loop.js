@@ -9,18 +9,12 @@ function calcAge(age) {
 console.log(calcAge(20)); 
 
 // 2.Loop text
-// example 1
-//  let firstName="Front-end Developer"
-//  for (let i=0 ; i<firstName.length ; i++){
-//     for (let j=0 ; j<=i ; j++){
-//        document.write(firstName[j]); 
-//     }
-//     document.write("<br>");
-// }
-// example 2
-const frontEnd = ['F', 'Fr', 'Fro', 'fron', 'Front','Front-','Front-e','Front-en','Front-end','Front-end ','Front-end D','Front-end De ','Front-end Dev','Front-end Deve','Front-end Devel','Front-end Develo','Front-end Develop','Front-end Develope','Front-end Developer']
-for (const i of frontEnd) {
-    console.log(i)
+text="front-end Developer"
+let loop=""
+for (let i = 0; i < text.length; i++) {
+     loop += text[i];
+     console.log(loop);
+    
 }
 
 // 3.Sum of even numbers(e.g: 2,4,6...) in 10.
