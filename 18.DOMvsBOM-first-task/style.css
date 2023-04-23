@@ -1,0 +1,10 @@
+.second button{color: white;}
+.start{background-color: green; color: white;}
+.stop , .reset{background-color: red;color: white;}
+.increment , .decrement{background-color: blue;}
+.bonus{
+    color: black;
+}
+#incrementvalueinput{border-color: red;}
+#incrementvaluebtn{ background-color: bisque;}
+ button{margin-bottom: 20px; border-color: transparent;padding: 5px 10px;}
