@@ -100,7 +100,9 @@ btn.onclick= function(){
     document.getElementById("nextpage").disabled = false;
 }
 letsStart.onclick=function(){
-    value=15+1
+    value=15
+settime.innerHTML=`00:${value}`
+    
 }
 
 nextPage.onclick= function() {
