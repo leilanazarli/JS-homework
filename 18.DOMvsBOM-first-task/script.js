@@ -28,7 +28,7 @@ incrementbtn.addEventListener("click",function(){
 decrementbtn.addEventListener("click",function(){
         result.innerText=--counter
 })
-var i=0;
+var i=1;
 function buttonClick(){
     document.getElementById("incrementvalueinput").value=++i*4;
 }
