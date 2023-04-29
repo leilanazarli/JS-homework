@@ -4,8 +4,7 @@ let result=document.querySelector("#result")
 let resetbtn=document.querySelector(".reset")
 let incrementbtn=document.querySelector(".increment")
 let decrementbtn=document.querySelector(".decrement")
-let incrementvalueinput=document.querySelector(".incrementvalueinput")
-let incrementvaluebtn=document.querySelector(".incrementvaluebtn")
+
 let counter=0;
 let interval;
 startbtn.addEventListener("click" , function(){
