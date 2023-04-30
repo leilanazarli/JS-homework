@@ -2,7 +2,7 @@
 Javascript  
 18.DOMvsBOM-first-task ---- https://flourishing-eclair-034cce.netlify.app/
 
-19.JS ----https://visionary-trifle-48005a.netlify.app/
+19.JS.Dom-setInterval ----https://visionary-trifle-48005a.netlify.app/
 
 19.Table-----https://endearing-marzipan-00d863.netlify.app/
 
