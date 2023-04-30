@@ -5,3 +5,5 @@ Javascript
 19.JS ----https://visionary-trifle-48005a.netlify.app/
 
 20.JS ----- https://jazzy-praline-a6f25b.netlify.app/
+
+21.JS.Simple-Calculator------ https://lustrous-souffle-79e10d.netlify.app/
