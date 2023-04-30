@@ -1,5 +1,5 @@
 .content{
-    margin-top: 5%;
+    margin-top: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,17 +19,16 @@
     gap: 10px;
 }
 h1{
-  
     font-size: 20px;
 }
 .result{
     color: azure;
-    text-align: right; 
-    padding: 0px 10px;
-    box-sizing: border-box;
+    padding: 15px 10px 10px 0px;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
     background-color: black;
     border-radius: 5%;
-    border: transparent;
 }
 .result,
 button{
@@ -37,14 +36,26 @@ button{
     height: 30px;
 }
 .numbers{
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 5px;
 }
 .value1, 
 .value2{
-    width: 45%;
+    width: 39%;
+    box-sizing: border-box;
 }
 .reset{
     background-color:rgb(210, 122, 15);
+}
+@media only screen and (max-width: 767px) {
+   .numbers{
+    width: 80%;
+    flex-direction: column;
+   }
+   .value1 , .value2 {
+    width: 100%;
+    box-sizing: border-box;
+   }
 }

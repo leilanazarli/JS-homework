@@ -9,24 +9,36 @@ let reset=document.querySelector(".reset")
 
 
 addition.addEventListener("click" , function(){
-  let sum = +value1.value+ +value2.value
-    result.value =sum
+    if(value1.value=="" || value2.value==""){
+        alert("empty!")
+    }
+    else {let sum = +value1.value+ +value2.value
+    result.innerText =sum}
 })
 substract.addEventListener("click" , function(){
-   let substract =+value1.value- +value2.value
-   result.value=substract
+    if(value1.value=="" || value2.value==""){
+        alert("empty!")
+    }
+    else {let substract =+value1.value- +value2.value
+   result.innerText=substract}
 })
 multiply.addEventListener("click" , function(){
-    let multip =+value1.value* +value2.value
-   result.value=multip
+    if(value1.value=="" || value2.value==""){
+        alert("empty!")
+    }
+    else {let multip =+value1.value* +value2.value
+   result.innerText=multip}
 })
 division.addEventListener("click" , function(){
-    let divis =+value1.value/ +value2.value
-    result.value=divis
+    if(value1.value=="" || value2.value==""){
+        alert("empty!")
+    }
+    else {let divis =+value1.value/ +value2.value
+    result.innerText=divis}
 })
 
 reset.addEventListener("click",function(){
     value1.value=0
     value2.value=0
-    result.value=0
+    result.innerText=0
 })
