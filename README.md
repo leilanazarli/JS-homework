@@ -8,4 +8,4 @@ Javascript
 
 20.JS.Events.user-form----- https://jazzy-praline-a6f25b.netlify.app/
 
-21.JS.Simple-Calculator------ https://magical-starlight-ffa04d.netlify.app/
+21.JS.Simple-Calculator------ https://earnest-alpaca-1303f3.netlify.app/
