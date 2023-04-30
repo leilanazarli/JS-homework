@@ -38,7 +38,7 @@ division.addEventListener("click" , function(){
 })
 
 reset.addEventListener("click",function(){
-    value1.value=0
-    value2.value=0
+    value1.value=""
+    value2.value=""
     result.innerText=0
 })
