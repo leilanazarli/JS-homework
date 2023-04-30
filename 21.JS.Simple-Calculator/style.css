@@ -1,0 +1,50 @@
+.content{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 20px 0px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 60%;
+    background-color: rgb(254, 222, 181);
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+h1{
+  
+    font-size: 20px;
+}
+.result{
+    color: azure;
+    text-align: right; 
+    padding: 0px 10px;
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 5%;
+    border: transparent;
+}
+.result,
+button{
+    width: 80%;
+    height: 30px;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.value1, 
+.value2{
+    width: 45%;
+}
+.reset{
+    background-color:rgb(210, 122, 15);
+}
