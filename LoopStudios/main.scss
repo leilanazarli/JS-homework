@@ -363,7 +363,7 @@ p{
             .sec1-text{
                 width: 300px;
                 p{
-                    font-size: 20px;
+                    font-size: 24px;
                 }
             }
         }
@@ -372,7 +372,10 @@ p{
     .container{
         .sec2-text{
             p{
-                font-size: 32px;
+                font-size: 36px;
+            }
+            span{
+                font-size: 20px;
             }
         }
     }
@@ -381,7 +384,7 @@ p{
         .container{
             .text{
                 p{
-                    font-size: 32px;
+                    font-size: 36px;
                 }
             }
             .products{
