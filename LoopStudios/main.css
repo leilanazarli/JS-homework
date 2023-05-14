@@ -208,7 +208,7 @@ footer .container .right .text-footer span {
   .sec1 .navbar-mobile {
     width: 100%;
     height: 100%;
-    padding: 90px;
+    padding: 40px;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -247,6 +247,9 @@ footer .container .right .text-footer span {
   }
   .sec1 .container header nav ul {
     display: none;
+  }
+  .sec1 .container .sec1-text {
+    width: 600px;
   }
   .sec1 .container .sec1-text p {
     padding: 10px 5px;
@@ -308,7 +311,7 @@ footer .container .right .text-footer span {
     justify-content: center;
   }
 }
-@media only screen and (max-width: 778px) {
+@media only screen and (max-width: 777px) {
   .navbar-mobile {
     gap: 20px;
   }
@@ -318,6 +321,9 @@ footer .container .right .text-footer span {
   }
   .sec1 .container .sec1-text {
     width: 300px;
+  }
+  .sec1 .container .sec1-text p {
+    font-size: 20px;
   }
   .sec2 .container .sec2-text p {
     font-size: 32px;
@@ -332,6 +338,7 @@ footer .container .right .text-footer span {
     grid-column: 1/span 1;
   }
   .sec3 .container .seeallbtn {
-    margin-left: 23%;
+    display: flex;
+    justify-content: center;
   }
 }/*# sourceMappingURL=main.css.map */

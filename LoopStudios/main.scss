@@ -216,7 +216,7 @@ p{
             .navbar-mobile{
                 width: 100%;
                 height: 100%;
-                padding: 90px;
+                padding: 40px;
                 background-color: black;
                 display: flex;
                 justify-content: space-between;
@@ -264,6 +264,7 @@ p{
                     }
                 }
                .sec1-text{
+                width:600px;
                 p{
                        padding: 10px 5px;
                        font-size: 38px;
@@ -351,16 +352,19 @@ p{
             }
         }
     }
-    @media only screen and (max-width: 778px) {
-       .navbar-mobile{
-        gap: 20px;
-       } 
+    @media only screen and (max-width: 777px) {
+        .navbar-mobile{
+            gap: 20px;
+           } 
      .sec1{
         .container{
             display: flex;
             flex-direction: column;
             .sec1-text{
                 width: 300px;
+                p{
+                    font-size: 20px;
+                }
             }
         }
      }
@@ -369,7 +373,6 @@ p{
         .sec2-text{
             p{
                 font-size: 32px;
-
             }
         }
     }
@@ -392,7 +395,8 @@ p{
                 }
             }
             .seeallbtn{
-                margin-left: 23%;
+                display: flex;
+                justify-content: center;
 
             }
         }
