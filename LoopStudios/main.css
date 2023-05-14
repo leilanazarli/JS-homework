@@ -323,13 +323,16 @@ footer .container .right .text-footer span {
     width: 300px;
   }
   .sec1 .container .sec1-text p {
-    font-size: 20px;
+    font-size: 24px;
   }
   .sec2 .container .sec2-text p {
-    font-size: 32px;
+    font-size: 36px;
+  }
+  .sec2 .container .sec2-text span {
+    font-size: 20px;
   }
   .sec3 .container .text p {
-    font-size: 32px;
+    font-size: 36px;
   }
   .sec3 .container .products .product-card img {
     width: 300px;
@@ -340,5 +343,7 @@ footer .container .right .text-footer span {
   .sec3 .container .seeallbtn {
     display: flex;
     justify-content: center;
+    margin: auto;
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=main.css.map */
