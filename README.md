@@ -14,3 +14,6 @@ Javascript
 
 
 23.JS_MockAPI-----https://cerulean-salmiakki-9fc84b.netlify.app/
+
+
+24.LoopStudios----- https://heroic-starship-7286e6.netlify.app/
