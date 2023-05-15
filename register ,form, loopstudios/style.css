@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+#checkbox {
+  accent-color: black;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container .left form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container .left form .form-group {
+  position: relative;
+}
+.container .left form .form-group label {
+  position: absolute;
+}
+.container .left form .form-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  padding: 6px 30px;
+}
+.container .left form .form-group input:focus {
+  border-bottom: 1px solid;
+  outline: none;
+}
+.container .left .right {
+  width: 50%;
+}
+
+@media only screen and (max-width: 777px) {
+  .container {
+    margin-top: 100px;
+    flex-direction: column-reverse;
+  }
+  .container h1, .container .registerbtn {
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */

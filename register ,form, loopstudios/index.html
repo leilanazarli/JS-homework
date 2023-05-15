@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+       <div class="left">
+        <h1>Sign up</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="text"><i class="fa-solid fa-user"></i></label>
+                <input type="text" id="text" placeholder="Your UserName"> 
+            </div>
+            <div class="form-group">
+                <label for="email"><i class="fa-solid fa-envelope"></i></label> 
+                <input type="email" name="email" id="email" placeholder="Your Email">  
+            </div>
+            <div class="form-group">
+                <label for="password"><i class="fa-solid fa-lock"></i></label> 
+                <input type="password" name="password" id="password" placeholder="Your Password">
+            </div>
+            <div class="form-group">
+                <label for="password"><i class="fa-solid fa-unlock-keyhole"></i></label> 
+                <input type="password" name="password" id="repeatpassword" placeholder="Repeat Your Password">
+            </div>
+            <div class="form-groub">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">I agree all statements in </label>
+                <a href="https://www.astartingpoint.com/static/tos.html?psafe_param=1&gclid=CjwKCAjwjYKjBhB5EiwAiFdSfnUD3JC6hPG3a5CN0QKmlzCTV1mG7YqlKZ2RoChYcUA54nMxkX295RoCXW4QAvD_BwE" target="_blank">Terms of service</a>
+            </div>
+            <div class="registerbtn">
+                <button class="btn btn-primary registerbutton">Register</button>
+            </div>      
+          </form>
+
+       </div>
+       <div class="right ">
+        <img src="./images/singup_img.jpg" alt="signup">
+        <div class="d-flex justify-content-center">
+            <a href="./signin.html" class="signinenter">I am already member</a>
+
+        </div>
+       </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

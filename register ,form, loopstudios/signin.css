@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+#checkbox {
+  accent-color: black;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .left {
+  width: 50%;
+}
+.container .right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container .right .form-group {
+  margin-bottom: 40px;
+}
+.container .right .form-group label {
+  position: absolute;
+}
+.container .right .form-group input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  padding: 0 20px;
+}
+.container .right .form-group input:focus {
+  border-bottom: 1px solid;
+  outline: none;
+}
+.container .right .icon {
+  display: flex;
+  gap: 5px;
+}
+
+@media only screen and (max-width: 777px) {
+  .container {
+    flex-direction: column;
+  }
+  .container .left {
+    width: 100%;
+  }
+  .container .left a {
+    text-align: center;
+  }
+  .container h1, .container .loginbtn {
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=signin.css.map */

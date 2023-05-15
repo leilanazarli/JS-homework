@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    color: black;
+}
+#checkbox{
+    accent-color: black;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        form{
+            display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .form-group{
+            position: relative;
+            label{
+                position: absolute;
+            }
+            input{
+                width: 100%;
+                border: none;
+                border-bottom: 1px solid ;
+                padding: 6px 30px;
+                &:focus {
+                    border-bottom: 1px solid;
+                    outline: none;
+                }
+            }
+        }
+        }
+        .right{
+            width: 50%;
+        }
+
+    }
+}
+@media only screen and (max-width: 777px) {
+    .container{
+            margin-top: 100px;
+            flex-direction: column-reverse;
+            h1 , .registerbtn{
+                display: flex;
+                justify-content: center;
+            }
+            
+           
+    }
+}
