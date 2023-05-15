@@ -1,8 +1,6 @@
 let closebtn = document.querySelector(".closebtn")
 let openbtn = document.querySelector(".hamburger")
 let navbar_mobile = document.querySelector(".navbar-mobile")
-let container = document.querySelector("#contain")
-let aHref = document.querySelector("a")
 
 
 
@@ -15,5 +13,6 @@ closebtn.addEventListener("click" , function(){
 
 openbtn.addEventListener("click" , function(){
    navbar_mobile.style.display="flex"
+      container.style.display="none"
 
 })
