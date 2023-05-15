@@ -17,3 +17,5 @@ Javascript
 
 
 24.LoopStudios----- https://loopstudios-leila.netlify.app/
+
+register ,form, loopstudios----https://register-loopstudios.netlify.app/
