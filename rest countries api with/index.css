@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito Sans;
+}
+
+body {
+  background-color: #f2f2f2;
+  transition: 2s;
+}
+
+input, select, .card {
+  transition: 2s;
+}
+
+.dark-body {
+  color: white;
+  background-color: rgb(19, 34, 49);
+}
+.dark-body header, .dark-body input, .dark-body select {
+  color: white;
+  background-color: rgb(43, 56, 68);
+}
+.dark-body .cards {
+  background-color: rgb(19, 34, 49);
+  color: white;
+}
+.dark-body button {
+  color: white;
+}
+.dark-body .sec .container .top .input-group span {
+  color: white;
+  background-color: rgb(43, 56, 68) !important;
+}
+.dark-body .sec .container .bottom .cards .card .card-body {
+  color: white;
+}
+.dark-body .sec .container .spinnerdark {
+  color: white !important;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid rgb(124, 123, 123);
+  transition: 2s;
+}
+header .container {
+  padding-top: 20px;
+}
+header .container nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav ul li {
+  list-style: none;
+}
+header .container nav ul li button {
+  border: none;
+  background-color: transparent;
+}
+
+.sec {
+  margin-top: 0;
+}
+.sec .container {
+  height: 100vh;
+}
+.sec .container .top {
+  margin-top: 20px;
+}/*# sourceMappingURL=index.css.map */

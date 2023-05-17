@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Nunito Sans;
+}
+body{
+    background-color: #f2f2f2;
+    transition: 2s;
+ 
+}
+input , select , .card{
+    transition: 2s;
+}
+.dark-body{
+    color: white;
+    background-color: rgb(19, 34, 49);
+    header , input , select   {
+        color: white;
+        background-color: rgba(43, 56, 68, 1);
+    }
+    .cards{
+    background-color: rgb(19, 34, 49);
+    color: white;
+    }
+    button{
+    color: white;
+    }
+    .sec{.container{.top{.input-group{span{color: white; background-color: rgba(43, 56, 68, 1) !important;}}}}}
+    .sec{.container{.bottom{.cards{.card{.card-body{color: white; }}}}}}
+    .sec{.container{.spinnerdark{color: white !important; }}}
+}
+
+header{
+    background-color: white;
+    border-bottom:1px solid rgb(124, 123, 123);
+    transition: 2s;
+ 
+    .container{
+        padding-top: 20px ;
+        nav{
+            ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li{
+                    list-style: none;
+
+                    button{
+                        border: none;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+.sec{
+    margin-top: 0;
+   .container{
+    height: 100vh;
+    .top{
+        margin-top: 20px;
+    }
+   }
+}

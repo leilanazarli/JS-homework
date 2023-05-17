@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito Sans;
+}
+
+body {
+  background-color: #f2f2f2;
+  transition: 2s;
+}
+
+input {
+  transition: 2s;
+}
+
+.dark-body {
+  background-color: rgb(19, 34, 49);
+}
+.dark-body header, .dark-body input, .dark-body select, .dark-body button {
+  background-color: rgb(43, 56, 68);
+}
+.dark-body header, .dark-body input, .dark-body select, .dark-body button, .dark-body .cards {
+  color: white;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid rgb(124, 123, 123);
+}
+header .container {
+  padding-top: 20px;
+}
+header .container nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav ul li {
+  list-style: none;
+}
+header .container nav ul li button {
+  border: none;
+  background-color: transparent;
+}/*# sourceMappingURL=details.css.map */
