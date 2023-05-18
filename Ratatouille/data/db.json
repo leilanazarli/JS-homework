@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Gusteau",
+      "username": "Anton",
+      "email": "Gusteau@april.biz",
+      "address": {
+        "street": "Kulas Light",
+        "city": "Gwenborough"
+      },
+      "photo": "./img/table6.jpeg",
+      "date": "5/18/2023, 3:17:02 AM"
+    },
+    {
+      "id": 2,
+      "name": "Alfredo",
+      "username": "Linguini",
+      "email": "alfredo@melissa.tv",
+      "address": {
+        "street": "Victor Plains",
+        "city": "Wisokyburgh"
+      },
+      "photo": "./img/table2.jpeg",
+      "date": "5/18/2023, 3:22:55 AM"
+    },
+    {
+      "id": 3,
+      "name": "Chef ",
+      "username": "Skinner",
+      "email": "chef@yesenia.net",
+      "address": {
+        "street": "Douglas Extension",
+        "city": "McKenziehaven"
+      },
+      "photo": "./img/table3.jpeg",
+      "date": "5/18/2023, 3:23:07 AM"
+    },
+    {
+      "id": 4,
+      "name": "Patrick ",
+      "username": "Bateman",
+      "email": "patrick.OConner@kory.org",
+      "address": {
+        "street": "Hoeger Mall",
+        "city": "South Elvis"
+      },
+      "photo": "./img/table7.jpeg",
+      "date": "5/18/2023, 3:23:17 AM"
+    },
+    {
+      "id": 5,
+      "name": "Colette ",
+      "username": "Woman",
+      "email": "Colette.OConner@kory.org",
+      "address": {
+        "street": "Hoeger Mall",
+        "city": "South Elvis"
+      },
+      "photo": "./img/table4.jpeg",
+      "date": "5/18/2023, 3:23:28 AM"
+    },
+    {
+      "id": 6,
+      "name": "Django ",
+      "username": "Brain",
+      "email": "Django.OConner@kory.org",
+      "address": {
+        "street": "Hoeger Mall",
+        "city": "South Elvis"
+      },
+      "photo": "./img/table5.jpeg",
+      "date": "5/18/2023, 3:23:37 AM"
+    },
+    {
+      "name": "Alec",
+      "username": "Munoz",
+      "email": "qojomic@mailinator.com",
+      "id": 7,
+      "photo": "./img/WhatsApp Image 2023-05-15 at 12.16.50 (1).jpeg",
+      "date": "5/18/2023, 3:23:47 AM"
+    },
+    {
+      "name": "Vera",
+      "username": "Foley",
+      "email": "cobojiqehe@mailinator.com",
+      "photo": "./img/table7.jpeg",
+      "date": "5/18/2023, 3:02:23 AM",
+      "id": 8
+    },
+    {
+      "name": "Jerry",
+      "username": "Molina",
+      "email": "citibylal@mailinator.com",
+      "photo": "./img/table5.jpeg",
+      "date": "5/18/2023, 3:04:55 AM",
+      "id": 9
+    }
+  ]
+}
