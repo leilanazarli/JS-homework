@@ -1,0 +1,40 @@
+footer{
+    .container{
+        padding: 100px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       .left{
+        a{
+            color: red;
+        }
+       }
+       .right{
+        a{
+            padding: 10px 12px;
+            background-color: black;
+            color: white;
+        }
+       }
+      .arrowup{
+         a{
+            color: white;
+            padding: 15px 20px;
+            position: fixed;
+             z-index: 3;
+             bottom: 20px; 
+            right: 20px;
+         }
+      }
+    }
+}
+@media only screen and (max-width:991px){
+footer{
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+}

@@ -1,0 +1,133 @@
+.other{
+    display: none;
+}
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+    .header-top{
+            .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            .burger,.fa-bars,.fa-xmark{
+                display: none;
+            }
+            h3{
+                font-family: "Poppins", sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+            }
+            a{
+                color: black;
+                background-color: red;
+                padding: 28px;
+                margin: 0;
+            }
+        }
+        
+    } 
+        .header-bottom{
+            .container{
+               nav{
+                .all{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                padding: 15px 0;
+                li{
+                    a{
+                        color: black;
+                        text-transform: uppercase;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 500;
+                        font-size: 12px;
+                        transition: .3s;
+                        &:hover{
+                            color: red;
+                        }
+                       
+                       }
+                 }
+               }
+
+            }
+        }
+}
+}
+.dropdown {
+    &:hover {
+        & > .dropdown-menu {
+            display: block;
+            top: 20px;
+            border-radius: 0;
+            border-color: white;
+        }
+    }
+    & > .dropdown-toggle {
+        &:active {
+            pointer-events: none;
+        }
+    }
+}
+@media only screen and (max-width:991px){
+    header{
+        .header-top{
+           .container{
+            .left{
+                visibility: hidden;
+            }
+            .right{
+                visibility: hidden;
+            }
+            .burger,.fa-bars,.fa-xmark{
+                display: block;
+                font-size: 22px;
+                color: red;
+            }
+           }
+        }
+        .header-bottom{
+            display: none;
+        }
+    }
+   
+    .other{
+        display: none;
+        transition: .3s;
+        &.show{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content:flex-start;
+            position: fixed;
+            z-index: 5;
+            padding-top: 30px;
+            align-items: center;
+            gap: 20px;
+            width: 30%;
+            height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+            
+            li{
+               
+                a{
+                    color: white;
+                    text-transform: uppercase;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 13px;
+                    font-weight: 700;
+                    transition: .3s;
+                    &:hover{
+                        color: red;
+                    }
+                 
+                   }
+             }
+        }
+    }
+   
+}

@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "Body Building Packages",
+      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "o1.png",
+      "price": 45
+    },
+    {
+      "id": 3,
+      "title": "Regular Exercise",
+      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "header-bg.jpg",
+      "price": "12334"
+    },
+    {
+      "id": 2,
+      "title": "Regular Exercise",
+      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "o3.png",
+      "price": 98
+    },
+    {
+      "id": 4,
+      "title": "Training on the go",
+      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "o2.png",
+      "price": 24
+    },
+    {
+      "id": 5,
+      "title": "Training on the go",
+      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "o1.png",
+      "price": "46"
+    },
+    {
+      "title": "Yetta Wall",
+      "text": "Itaque placeat sunt",
+      "price": "78",
+      "photo": "o3.png",
+      "id": 6
+    }
+  ],
+  "fav": [
+    {
+      "id": 3,
+      "title": "Regular Exercise",
+      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "o2.png",
+      "price": 123
+    },
+    {
+      "id": 1,
+      "title": "Body Building Packages",
+      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "o1.png",
+      "price": 45
+    },
+    {
+      "id": 4,
+      "title": "Training on the go",
+      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "o2.png",
+      "price": 24
+    }
+  ]
+}

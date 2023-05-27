@@ -1,0 +1,447 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Epilogue";
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h4,
+h6,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.other {
+  display: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background-color: white;
+}
+header .header-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+header .header-top .container .burger, header .header-top .container .fa-bars, header .header-top .container .fa-xmark {
+  display: none;
+}
+header .header-top .container h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+header .header-top .container a {
+  color: black;
+  background-color: red;
+  padding: 28px;
+  margin: 0;
+}
+header .header-bottom .container nav .all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 15px 0;
+}
+header .header-bottom .container nav .all li a {
+  color: black;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  transition: 0.3s;
+}
+header .header-bottom .container nav .all li a:hover {
+  color: red;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  top: 20px;
+  border-radius: 0;
+  border-color: white;
+}
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 991px) {
+  header .header-top .container .left {
+    visibility: hidden;
+  }
+  header .header-top .container .right {
+    visibility: hidden;
+  }
+  header .header-top .container .burger, header .header-top .container .fa-bars, header .header-top .container .fa-xmark {
+    display: block;
+    font-size: 22px;
+    color: red;
+  }
+  header .header-bottom {
+    display: none;
+  }
+  .other {
+    display: none;
+    transition: 0.3s;
+  }
+  .other.show {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 5;
+    padding-top: 30px;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  .other.show li a {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    transition: 0.3s;
+  }
+  .other.show li a:hover {
+    color: red;
+  }
+}
+footer .container {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .left a {
+  color: red;
+}
+footer .container .right a {
+  padding: 10px 12px;
+  background-color: black;
+  color: white;
+}
+footer .container .arrowup a {
+  color: white;
+  padding: 15px 20px;
+  position: fixed;
+  z-index: 3;
+  bottom: 20px;
+  right: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  footer .container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+.sec1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+.sec1 .container {
+  padding: 300px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec1 .container h1 {
+  font-size: 45px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.sec1 .container p {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.sec2 {
+  margin-bottom: 150px;
+}
+.sec2 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sec2 .container h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #222222;
+  line-height: 1.2em;
+}
+.sec2 .container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.sec2 .container .cards .card {
+  box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+  padding: 20px;
+}
+.sec2 .container .cards .card .card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.sec3 {
+  margin-bottom: 100px;
+}
+.sec3 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sec3 .container h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #222222;
+  line-height: 1.2em;
+}
+.sec3 .container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+.sec3 .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec3 .container .row .card {
+  border: none;
+  border-radius: none;
+  position: relative;
+}
+.sec3 .container .row .card .head {
+  overflow: hidden;
+}
+.sec3 .container .row .card .head img {
+  transition: all 0.3s ease 0s;
+}
+.sec3 .container .row .card .head img:hover {
+  transform: scale(1.2);
+}
+.sec3 .container .row .card span {
+  position: absolute;
+  left: 10%;
+  bottom: 30%;
+  padding: 10px 40px;
+  font-size: 14px;
+  color: white;
+  background-color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.sec3 .container .row .card .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.sec3 .container .row .card .card-body h5 {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+.sec3 .container .row .card .card-body p {
+  color: red;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.sec4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/callto-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec4 .container {
+  padding: 200px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec4 .container h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.sec4 .container p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  line-height: 26px;
+}
+.sec4 .container button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: 0.2s;
+  border: 1px solid transparent;
+  font-family: "Poppins", sans-serif;
+}
+.sec4 .container button:hover {
+  border-color: white;
+  background-color: transparent;
+}/*# sourceMappingURL=main.css.map */
