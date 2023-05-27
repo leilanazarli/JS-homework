@@ -3,6 +3,7 @@ let text=document.querySelector("#text")
 let price=document.querySelector("#price")
 let photo=document.querySelector("#photo")
 let submitBtn=document.querySelector(".submitBtn")
+let add=document.querySelector(".add")
 let form=document.querySelector("form")
 let burger=document.querySelector(".burger")
 let ul=document.querySelector(".other")
@@ -50,6 +51,8 @@ if(id){
 
     }
     forEdit()
+    submitBtn.innerHTML="Edit"
+    add.innerHTML="Edit User"
 }
 form.addEventListener("submit", async function(event){
     event.preventDefault()

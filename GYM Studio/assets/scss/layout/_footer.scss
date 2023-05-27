@@ -38,3 +38,15 @@ footer{
 }
 
 }
+@media only screen and (max-width:767px){
+footer{
+    .container{
+        .left{
+            p{
+                font-size: 12px;
+            }
+           }
+    }
+}
+
+}

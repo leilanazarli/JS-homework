@@ -45,5 +45,5 @@ favData()
 async function deleteBtn(id){
     await axios.delete(`${BASE_URL}/${id}`)
     fav=allData.filter(item=>item.id!=id)
-    getData()
+    favData()
 }

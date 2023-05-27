@@ -38,11 +38,18 @@
   ],
   "fav": [
     {
-      "id": 3,
-      "title": "Regular Exercise",
+      "id": 4,
+      "title": "Training on the go",
       "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
       "photo": "o2.png",
-      "price": 123
+      "price": 24
+    },
+    {
+      "id": 2,
+      "title": "Regular Exercise",
+      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "o3.png",
+      "price": 98
     },
     {
       "id": 1,
@@ -50,13 +57,6 @@
       "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
       "photo": "o1.png",
       "price": 45
-    },
-    {
-      "id": 4,
-      "title": "Training on the go",
-      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
-      "photo": "o2.png",
-      "price": 24
     }
   ]
 }

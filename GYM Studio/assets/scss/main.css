@@ -211,6 +211,7 @@ header .header-bottom .container nav .all li a:hover {
     display: block;
     font-size: 22px;
     color: red;
+    margin-right: 10px;
   }
   header .header-bottom {
     display: none;
@@ -273,6 +274,11 @@ footer .arrowup a {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  footer .container .left p {
+    font-size: 12px;
   }
 }
 .sec1 {
@@ -444,4 +450,25 @@ footer .arrowup a {
 .sec4 .container button:hover {
   border-color: white;
   background-color: transparent;
+}
+
+@media only screen and (max-width: 767px) {
+  .sec2 .container h1 {
+    font-size: 23px;
+  }
+  .sec2 .container p {
+    font-size: 13px;
+  }
+  .sec3 .container h1 {
+    font-size: 20px;
+  }
+  .sec3 .container p {
+    font-size: 13px;
+  }
+  .sec4 .container h1 {
+    font-size: 23px;
+  }
+  .sec4 .container p {
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=main.css.map */

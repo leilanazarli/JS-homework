@@ -19,7 +19,7 @@ async function getDetails(){
    let res=await axios(`${BASE_URL}/${id}`)
    let data=res.data
     cards.innerHTML=`
-    <img src="./assets/img/${data.photo}" class="card-img-top w-100" alt="...">
+    <img src="./assets/img/${data.photo}" class="card-img-top w-90" alt="...">
     <div class="card w-100" >
                     <div class="card-body">
                       <h5 class="card-title">${data.title}</h5>
