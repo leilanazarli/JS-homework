@@ -16,16 +16,16 @@ footer{
             color: white;
         }
        }
-      .arrowup{
-         a{
-            color: white;
-            padding: 15px 20px;
-            position: fixed;
-             z-index: 3;
-             bottom: 20px; 
-            right: 20px;
-         }
-      }
+    }
+    .arrowup{
+       a{
+          color: white;
+          padding: 15px 20px;
+          position: fixed;
+           z-index: 3;
+           bottom: 20px; 
+          right: 20px;
+       }
     }
 }
 @media only screen and (max-width:991px){

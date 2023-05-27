@@ -8,13 +8,6 @@
       "price": 45
     },
     {
-      "id": 3,
-      "title": "Regular Exercise",
-      "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
-      "photo": "header-bg.jpg",
-      "price": "12334"
-    },
-    {
       "id": 2,
       "title": "Regular Exercise",
       "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
