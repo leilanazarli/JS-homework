@@ -21,3 +21,5 @@ Javascript
 register ,form, loopstudios----https://register-loopstudios.netlify.app/
 
 rest countries api with-----https://benevolent-choux-2ba51c.netlify.app/
+
+GYM-studio -----https://gymstudio-leyla.netlify.app/
